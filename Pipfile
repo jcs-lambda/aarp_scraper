@@ -9,6 +9,7 @@ ipywidgets = "*"
 
 [packages]
 scrapy = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
