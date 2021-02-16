@@ -3,10 +3,14 @@
 Simple [AARP Jobs](https://jobs.aarp.org) scraper to make it easier to filter
 results to my preferences. Only scrapes the search results page, not full listing.
 
-### Run the scraper
+Change the `start_urls` in [myspider.py](myspider.py) to that of the first results page from your initial search.
+
+Run the scraper
 ```
 scrapy runspider -o jobs.json myspider.py
 ```
+
+Use [notebook.ipynb](notebook.ipynb) to load, sort, filter, and display your results.
 
 ### Shell with custom user-agent
 ```
